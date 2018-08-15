@@ -1,4 +1,4 @@
-# Getting and Cleaning Data Quiz 2 (JHU) Coursera
+# Getting and Cleaning Data Quiz 2
 
 Question 1
 ----------
@@ -30,8 +30,7 @@ sapply(output, function(x) x$created_at)
 Question 2
 ----------
 The sqldf package allows for execution of SQL commands on R data frames. We will use the sqldf package to practice the queries we might send with the dbSendQuery command in RMySQL. </br>
-Download the American Community Survey data and load it into an R object called </br>
-acs <br>
+Download the American Community Survey data and load it into an R object called </br> acs <br>
 https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06pid.csv </br>
 Which of the following commands will select only the data for the probability weights pwgtp1 with ages less than 50? </br>
 
