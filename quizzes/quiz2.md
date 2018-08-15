@@ -12,7 +12,7 @@ library(httpuv)
 # Register an application on gitHub
 myapp <- oauth_app("github", key = "aab241bcd9afeb49f2e5", secret = "fc21a683b67e4a76140f549a92f946d946fd7b07")
 
-#b. Get Oauth credentials
+# Get Oauth credentials
 github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
 
 # use API
